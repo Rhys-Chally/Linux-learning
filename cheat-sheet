@@ -1,0 +1,10 @@
+ls             list files in a directory
+ls -l          Long listing 
+cd [dir]       change directory
+cd [dir]	     Change directory
+pwd	           Show current directory path
+mkdir [dir]	   Create a new directory
+rm [file]	     Remove a file
+rm -r [dir]	   Remove a directory and its contents
+cp [source] [destination]	Copy files/directories
+mv [old] [new]	Move or rename files/directories
