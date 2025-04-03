@@ -1,0 +1,17 @@
+print "Hello world!
+
+def movie_summary():
+  name = input ("What's your name")
+  movie = input ("What's your favourite movie?")
+  time = input ("How many times have you watched it?")
+
+  print("\n" + * 24)
+  print(f"\nHey {name}!")
+  print(f"You really love: {movie}")
+  print(f"You've watchined it {time} times? That's some dedication!")
+  print("=" * 24)
+
+  # call the function to run it
+  movie_summary()
+
+
