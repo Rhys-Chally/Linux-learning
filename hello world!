@@ -14,4 +14,24 @@ def movie_summary():
   # call the function to run it
   movie_summary()
 
+=========================================================================
+                number guess game.
+import random
 
+def guess_game():
+        secret = random.randint(1, 10) #pick a number between 1 to 10
+        guess = None
+
+        print("I'm thinking of a number between 1 and 10.")
+
+        while guess != secret:
+              guess = int(input("Take a guess:"))
+
+              if guess < secret:
+                    print(Too low! Try again.")
+              elif guess > secret:
+                    print(Too high! Try again.")
+              else:
+                    print("You got it")
+
+guess_game()
